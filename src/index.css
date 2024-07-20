@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-style: normal;
+  font-family: "Lato";
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #0d080f;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(49, 49, 49, 0.397);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(116, 116, 116, 0.397);
+}
